@@ -1,0 +1,28 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduzione}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Obiettivo}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}SimplanPlus}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Compilatore}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Interprete}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Stato dell'arte}{3}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Grammatica}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Blocchi}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Dichiarazioni}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Istruzioni}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Espressioni}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Commenti e caratteri ignorati}{4}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Errori grammaticali}{4}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Semantica}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Ambiente}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Errori semantici}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Controllo dei tipi}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Tipi}{6}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Analisi degli effetti}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Struttura ambiente}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Effetti}{7}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Compilatore}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Compilatore SimplanPlus}{8}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Interprete}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Interprete SimplanPlus}{9}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Esempi}{10}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Esempio 1}{10}{subsection.8.1}%
