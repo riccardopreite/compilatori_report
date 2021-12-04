@@ -26,8 +26,21 @@
 \pagestyle{fancy}
 \renewcommand{\footrulewidth}{0.4pt} 
 \fancyhf{}
-\fancyhead[L]{SocialPlaces - Project Report}
-\fancyhead[R]{Project of the course ``Sistemi Context-Aware"}
-\fancyfoot[L]{Riccardo Preite, Tommaso Azzalin}
+\fancyhead[L]{SimplanPlus Compiler}
+\fancyhead[R]{Project of the course ``Compilatori \& Interpreti''}
+\fancyfoot[L]{Riccardo Preite, Davide Davoli, Matteo Mele, Leonardo Palumbo}
 \fancyfoot[R]{\thepage\/\pageref{LastPage}}
 \setlength{\headheight}{13.6pt}
+\lstdefinestyle{antlr}{
+    basicstyle=\small\ttfamily\color{black},
+    breaklines=true, % allow line breaks
+    moredelim=[s][\color{green}\ttfamily]{'}{'}, % single quotes in green
+    moredelim=*[s][\color{black}\ttfamily]{options}{\}}, % options in black (until trailing })
+    commentstyle={\color{green!50!black}\itshape}, % gray italics for comments
+    morecomment=[l]{//}, % define // comment
+    emph={block,declaration,decFun,decVar,statement,assignment,deletion,print,ret,ite,call,exp,type,lhs,arg},
+    emphstyle={\color{yellow}\ttfamily}, % and formatted in orange
+    alsoletter={:,|,;},
+    morekeywords={ID,BOOL,NUMBER,CHAR,DIGIT,WS,LINECOMMENTS,BLOCKCOMMENTS,WS}, % define the special characters
+    keywordstyle={\color{purple}}, % and format them in black
+}

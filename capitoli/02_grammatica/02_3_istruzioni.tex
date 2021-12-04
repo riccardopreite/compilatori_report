@@ -1,7 +1,40 @@
 \documentclass[../../main]{subfiles}
 \begin{document}
 
-\subsection{Istruzioni}
+\subsection{Istruzioni}\label{s:istruzioni}
+Il linguaggio SimplanPlus presenta una serie di istruzioni che permettono la manipolazione di ID o chiamate di funzioni.
+\begin{itemize}
+    \item (\verb|assignment|) di un valore ad una variabile dichiarata;
+    \item (\verb|deletion|), viene deallocata la zona di memoria alla quale il puntatore puntava;
+    \item (\verb|print|), di una espressione (variabile, ritorno di funzione o int o bool);
+    \item (\verb|ret|) permette ad una funzione di ritornare un valore o di ritornare al chiamante in caso di funzioni void;
+    \item (\verb|ite|) definisce la costruzione di un blocco if con condizione booleana e ramo else facoltativo;
+    \item (\verb|call|) invoca la funzione corrispondente con i relativi parametri attuali;
+    \item (\verb|block|) rappresenta la creazione di un blocco annidato.
+\end{itemize}
+\begin{lstlisting}[style=antlr]
+statement   : assignment ';'
+        | deletion ';'
+        | print ';'
+        | ret ';'
+        | ite
+        | call ';'
+        | block;
+
+assignment  : lhs '=' exp;
+
+lhs         : ID | lhs '^';
+
+deletion    : 'delete' ID;
+
+print       : 'print' exp;
+
+ret         : 'return' (exp)?;
+
+ite         : 'if' '(' exp ')' statement ('else' statement)?;
+
+call        : ID '(' (exp(',' exp)*)? ')';
+\end{lstlisting}
 
 
 

@@ -2,7 +2,18 @@
 \begin{document}
 
 \section{Grammatica}
-
+Ogni linguaggio è composto da una grammatica che definisce la struttura delle sue istruzioni, delle espressioni e dei suioi tipi.
+La grammatica di \textbf{SimplanPlus}, presente in \verb|lexer/SimpLanPlus.g4|, presenta una serie di regole:
+\begin{itemize}
+    \item Block;
+    \item Declaration;
+    \item Statement;
+    \item Expression;
+    \item White space, comment;
+    \item Errors.
+\end{itemize}
+Grazie a \verb|lexer/SimpLanPlus.g4| il lexer e il parser sono stati generati automaticamente. Ovviamente si è dovuto procedere all'implementazione finale
+del parser per fare in modo che possa creare i giusti nodi a partire dal contesto che riceve.
 \subfile{02_grammatica/02_1_blocchi}
 \subfile{02_grammatica/02_2_dichiarazioni}
 \subfile{02_grammatica/02_3_istruzioni}

@@ -1,8 +1,11 @@
 \documentclass[../../main]{subfiles}
 \begin{document}
 
-\subsection{Blocchi}
+\subsection{Blocchi}\label{s:blocchi}
+Un programma SimplanPlus inizia con un block che potrebbe avere una serie di dichiarazioni (variabili o funzioni) seguita da una possibile serie di istruzioni. 
+Il blocco è considerato un'istruzione quindi potrebbe ripetersi più volte all'interno del programma.
 
-
-
+\begin{lstlisting}[style=antlr]
+    block       : '{' declaration* statement* '}';
+    \end{lstlisting}
 \end{document}
