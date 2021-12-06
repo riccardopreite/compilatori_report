@@ -2,7 +2,14 @@
 \begin{document}
 
 \subsection{Errori grammaticali}
+Gli errori sintattici, presenti al livello di grammatica, sono gestiti grazie a una funzionalità di ANTLR che permette
+di inserire codice ad alto livello (Java, nel caso di questo progetto) nel file della grammatica, il quale viene poi aggiunto 
+in fase di auto-generazione del codice relativo al lexer e al parser.
+\begin{lstlisting}[style=antlr]
+/* Regole della grammatica descritte sopra */
 
+ERR     : . { errors.add("Invalid character: "+ getText()); } -> channel(HIDDEN);
+\end{lstlisting}
 
 
 \end{document}

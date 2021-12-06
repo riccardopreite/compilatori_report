@@ -2,7 +2,14 @@
 \begin{document}
 
 \subsection{Commenti e caratteri ignorati}
-
+In \textbf{SimpLanPlus} i commenti possono essere di due tipi: 
+in linea (che iniziano con \verb|//|) e a blocco (compresi tra \verb|/*| e \verb|*/|). Tabulazioni, Spazi bianchi 
+e ritorni a capo sono scartati durante l'analisi lessicale.
+\begin{lstlisting}[style=antlr]
+WS              : (' '|'\t'|'\n'|'\r') -> skip;
+LINECOMMENTS    : '//' (~('\n'|'\r'))* -> skip;
+BLOCKCOMMENTS   : '/*'( ~('/'|'*')|'/'~'*'|'*'~'/'|BLOCKCOMMENTS)* '*/' -> skip;
+\end{lstlisting}
 
 
 \end{document}
