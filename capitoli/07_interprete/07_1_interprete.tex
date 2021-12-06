@@ -2,7 +2,16 @@
 \begin{document}
 
 \subsection{Interprete SimplanPlus}
-
-
+L'interprete di \textbf{SimpLanPlus} prende in input il codice precedentemente generato dal compilatore e lo esegue un'istruzione alla volta. 
+\subsubsection{Bytecode}
+Per ogni nodo dell'AST è presente un metodo \emph{String codeGeneration()} che genera il bytecode rispettando la grammatica presente nel file \emph{SVG.g4}.
+Ogni istruzione è composta da: 
+\begin{itemize}
+    \item \textbf{Label istruzione}: è una stringa obbligatoria che identifica un'istruzone. 
+    \item \textbf{Primo argomento}: serve per specificare un registro o un'etichetta. È una stringa opzionale perché non tutte le istruzioni prevedono questo argomento (es. POP).
+    \item \textbf{Secondo argomento}: serve per specificare un registro o un numero. È una stringa opzionale.
+    \item \textbf{Terzo argomento}: serve per specificare un registro, un numero o un'etichetta. È una stringa opzionale.
+\end{itemize}
+Per ogni istruzione letta viene creato un oggetto di tipo \emph{Instruction}, definito dalla classe Instruction.java.
 
 \end{document}
