@@ -2,7 +2,14 @@
 \begin{document}
 
 \subsection{Compilatore}
-
+L'esecuzione del compilatore di \textbf{SimpLanPlus} si articola nei seguenti step, svolti esattamente nell'ordine descritto: 
+\begin{enumerate}
+    \item \textbf{analisi lessicale}, in cui il codice sorgente viene trasformato in \textit{token} che contribuiscono alla creazione dell'\textbf{Abstract Syntax Tree (AST)};
+    \item \textbf{analisi semantica}, in cui viene verificata la correttezza semantica del programma in input (ad esempio, che le variabili vengano utilizzate solo dopo una loro dichiarazione);
+    \item \textbf{type checking}, in cui viene controllato che i tipi all'interno delle espressioni, nelle assegnazioni e nelle istruzioni siano concordi a quanto atteso;
+    \item \textbf{analisi degli effetti}, in cui viene verificato lo stato delle variabili e dei puntatori nella memoria (inizializzato $\bot$, letto/scritto $rw$, cancellato $d$, errore $\top$).
+\end{enumerate}
+Successivamene, si passa alla generazione del codice \textbf{SVM-Assembly} corrispondente.
 
 
 \end{document}
