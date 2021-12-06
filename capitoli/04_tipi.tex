@@ -2,6 +2,15 @@
 \begin{document}
 
 \section{Controllo dei tipi}
+Il controllo sui tipi viene garantito dal metodo \verb|Node typeCheck()| che restituisce un nodo rappresentante il tipo del nodo (istanza di \verb|Node|) su cui si è invocato, 
+\textit{null} in caso quel nodo non debba avere associato un tipo o  un'eccezione in caso di errori durante il processo.\\
+Il valore \verb|null| viene ritornato da tutti i nodi che hanno come supertipo \verb|TypeNode|, dagli argomenti delle funzioni, dalle dichiarazione di variabili e di funzioni.\\
+Le istruzioni, per scelta implementativa, ritornano il tipo \verb|void| ma ci sono alcune eccezioni:
+\begin{itemize}
+    \item \verb|RetNode| che ritorna il tipo dell'espressione, \verb|void| nel caso non ce ne sia alcuna;
+    \item \verb|CallNode| che ritorna il tipo di ritorno dichiarato dalla funzione;
+    \item \verb|IfNode| che ritorna il tipo comune ai due rami (che deve essere quindi uguale);
+    \item \verb|BlockNode| che ritorna \verb|void| in assenza di istruzioni o quando non vi è n\'e \verb|return| n\'e \textit{if-then-else} altrimenti ritorna il tipo di \verb|RetNode| o di \verb|IfNode|. 
 
 \subfile{04_tipi/04_1_tipi}
 
