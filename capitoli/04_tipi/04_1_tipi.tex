@@ -11,5 +11,31 @@ I tipi implementati nel linguaggio sono:
     \item \verb|arrowType|: tipo utilizzato per le \textit{funzioni}, contiene la lista dei tipi dei parametri e il tipo ritornato.
 \end{itemize}
 
+Particolare attenzione viene rivolta verso il corretto uso dei puntatori e la conformità dei parametri formali con gli attuali.
+\subsubsection{Corretto uso dei puntatori}
+Il corretto uso dei puntatori è definito da alcuni punti cruciali:
+\begin{itemize}
+    \item Tutte le referenze di un puntatore devono essere inizialiazzate per poter essere scritte/lette;
+    \item Prima di usare un puntatore cancellato questo va reinizializzato;
+    \item Non è possibile accedere ad un puntatore cancellato;
+    \item Il livello di dereferenziazione durante l'assegnamento deve combaciare.
+\end{itemize}
+Riguardo al controllo sull'inizializzazione rimandiamo alla sezione dell'analisi degli effetti.
+\subsubsection{Parametri attuali non conformi ai parametri formali}
+Il controllo sui parametri di una funzione avviene in due parti, la prima controlla che il numero dei parametri sia lo stesso di quello presente
+nella dichiarazione della funzione invocata ed inseguito viene controllato che anche i tipi combacino.
+
+\begin{lstlisting}[style=java]
+    public TypeNode typeCheck () throws SimplanPlusException {  
+        List<TypeNode> p = t.getParList();
+        if ( !(p.size() == parameterlist.size()) )
+            throw new SimplanPlusException('Wrong number of parameters in the invocation of '+id);
+        
+        for (int i=0; i<parameterlist.size(); i++)
+        if ( !(TypeUtils.isSubtype( (parameterlist.get(i)).typeCheck(), p.get(i)) ) )
+            throw new SimplanPlusException('Wrong type for '+(i+1)+'-th parameter in the invocation of '+id);
+    }
+       
+\end{lstlisting}
 
 \end{document}

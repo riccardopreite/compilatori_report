@@ -35,6 +35,7 @@
     basicstyle=\small\ttfamily\color{black},
     breaklines=true, % allow line breaks
     moredelim=[s][\color{green}\ttfamily]{'}{'}, % single quotes in green
+    moredelim=[s][\color{green}\ttfamily]{"}{"}, % single quotes in green
     moredelim=*[s][\color{black}\ttfamily]{options}{\}}, % options in black (until trailing })
     commentstyle={\color{green!50!black}\itshape}, % gray italics for comments
     morecomment=[l]{//}, % define // comment
@@ -42,5 +43,19 @@
     emphstyle={\color{yellow}\ttfamily}, % and formatted in orange
     alsoletter={:,|,;},
     morekeywords={ID,BOOL,NUMBER,CHAR,DIGIT,WS,LINECOMMENTS,BLOCKCOMMENTS,WS}, % define the special characters
+    keywordstyle={\color{purple}}, % and format them in black
+}
+\lstdefinestyle{java}{
+    basicstyle=\small\ttfamily\color{black},
+    breaklines=true, % allow line breaks
+    moredelim=[s][\color{green}\ttfamily]{'}{'}, % single quotes in green
+    moredelim=[s][\color{green}\ttfamily]{"}{"}, % single quotes in green
+    moredelim=*[s][\color{black}\ttfamily]{options}{\}}, % options in black (until trailing })
+    commentstyle={\color{green!50!black}\itshape}, % gray italics for comments
+    morecomment=[l]{//}, % define // comment
+    emph={if,new,else,checkSemantics,null},
+    emphstyle={\color{orange}\ttfamily}, % and formatted in orange
+    alsoletter={:,|,;},
+    morekeywords={entry, id, nestinglevel,exp,READWRITE,type,parameterlist,entry}, % define the special characters
     keywordstyle={\color{purple}}, % and format them in black
 }

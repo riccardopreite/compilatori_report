@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.2)  4 DEC 2021 09:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.2)  8 DEC 2021 22:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -741,22 +741,23 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             ! on input line 7.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+ (/home/smog/compilatori_report/capitoli/00_abstract.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+] (/home/smog/compilatori_report/main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/home/smog/compilatori_report/capitoli/00_abstract.tex) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/smog/compilatori_report/main.toc)
+))
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
  [2
 
-] (/home/smog/compilatori_report/capitoli/01_introduzione.tex (/home/smog/compilatori_report/capitoli/01_introduzione/01_1_obiettivo.tex) (/home/smog/compilatori_report/capitoli/01_introduzione/01_2_simplanplus.tex) (/home/smog/compilatori_report/capitoli/01_introduzione/01_3_compilatore.tex) (/home/smog/compilatori_report/capitoli/01_introduzione/01_4_interprete.tex) (/home/smog/compilatori_report/capitoli/01_introduzione/01_5_arte.tex)) [3
+] (/home/smog/compilatori_report/capitoli/01_introduzione.tex (/home/smog/compilatori_report/capitoli/01_introduzione/01_1_obiettivo.tex) (/home/smog/compilatori_report/capitoli/01_introduzione/01_2_simplanplus.tex) (/home/smog/compilatori_report/capitoli/01_introduzione/01_3_compilatore.tex) (/home/smog/compilatori_report/capitoli/01_introduzione/01_4_interprete.tex) (/home/smog/compilatori_report/capitoli/01_introduzione/01_5_tools.tex)) [3
 
 ] (/home/smog/compilatori_report/capitoli/02_grammatica.tex
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6.
@@ -767,42 +768,53 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ]) (/home/smog/compilatori_report/capitoli/02_grammatica/02_4_espressioni.tex [5]
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10> not available
 (Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 22.
-) (/home/smog/compilatori_report/capitoli/02_grammatica/02_5_commenti.tex) (/home/smog/compilatori_report/capitoli/02_grammatica/02_6_errori.tex)) [6] (/home/smog/compilatori_report/capitoli/03_semantica.tex (/home/smog/compilatori_report/capitoli/03_semantica/03_1_ambiente.tex) (/home/smog/compilatori_report/capitoli/03_semantica/03_2_errori.tex)) [7
+) (/home/smog/compilatori_report/capitoli/02_grammatica/02_5_commenti.tex) (/home/smog/compilatori_report/capitoli/02_grammatica/02_6_errori.tex)) [6] (/home/smog/compilatori_report/capitoli/03_semantica.tex (/home/smog/compilatori_report/capitoli/03_semantica/03_1_ambiente.tex) (/home/smog/compilatori_report/capitoli/03_semantica/03_2_errori.tex [7
 
-] (/home/smog/compilatori_report/capitoli/04_tipi.tex (/home/smog/compilatori_report/capitoli/04_tipi/04_1_tipi.tex)) [8
+])) [8] (/home/smog/compilatori_report/capitoli/04_tipi.tex (/home/smog/compilatori_report/capitoli/04_tipi/04_1_tipi.tex [9
 
-] (/home/smog/compilatori_report/capitoli/05_effetti.tex (/home/smog/compilatori_report/capitoli/05_effetti/05_1_ambienti.tex) (/home/smog/compilatori_report/capitoli/05_effetti/05_2_effetti.tex)) [9
+])) [10] (/home/smog/compilatori_report/capitoli/05_effetti.tex (/home/smog/compilatori_report/capitoli/05_effetti/05_1_ambienti.tex) (/home/smog/compilatori_report/capitoli/05_effetti/05_2_effetti.tex)) [11
 
-] (/home/smog/compilatori_report/capitoli/06_compilatore.tex (/home/smog/compilatori_report/capitoli/06_compilatore/06_1_compilatore.tex)) [10
+] (/home/smog/compilatori_report/capitoli/06_compilatore.tex (/home/smog/compilatori_report/capitoli/06_compilatore/06_1_compilatore.tex
+<images/esempioesec.png, id=406, 774.64406pt x 239.39438pt>
+File: images/esempioesec.png Graphic file (type png)
+<use images/esempioesec.png>
+Package pdftex.def Info: images/esempioesec.png  used on input line 19.
+(pdftex.def)             Requested size: 512.15317pt x 199.16849pt.
 
-] (/home/smog/compilatori_report/capitoli/07_interprete.tex (/home/smog/compilatori_report/capitoli/07_interprete/07_1_interprete.tex)) [11
+Overfull \hbox (11.66917pt too wide) in paragraph at lines 19--20
+[][] 
+ []
 
-] (/home/smog/compilatori_report/capitoli/08_esempi.tex (/home/smog/compilatori_report/capitoli/08_esempi/08_1_esempi)) [12
+)) [12
+
+ </home/smog/compilatori_report/images/esempioesec.png>] (/home/smog/compilatori_report/capitoli/07_interprete.tex (/home/smog/compilatori_report/capitoli/07_interprete/07_1_interprete.tex)) [13
+
+] (/home/smog/compilatori_report/capitoli/08_esempi.tex (/home/smog/compilatori_report/capitoli/08_esempi/08_1_esempi)) [14
 
 ] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 (/home/smog/compilatori_report/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D77DA2E678133ED9A83D7CD015C934CD;1564.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
+(rerunfilecheck)             Checksum: 97A44048A5EFB7BFC88C123D319E86EF;2205.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 26511 strings out of 481239
- 527317 string characters out of 5920377
- 889569 words of memory out of 5000000
- 41082 multiletter control sequences out of 15000+600000
- 542653 words of font info for 62 fonts, out of 8000000 for 9000
+ 26729 strings out of 481239
+ 530159 string characters out of 5920377
+ 924013 words of memory out of 5000000
+ 41229 multiletter control sequences out of 15000+600000
+ 541146 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,107p,975b,2094s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/smog/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on /home/smog/compilatori_report/main.pdf (12 pages, 122862 bytes).
+ 72i,12n,107p,975b,2095s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/smog/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on /home/smog/compilatori_report/main.pdf (14 pages, 184922 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 104 named destinations out of 1000 (max. 500000)
- 373 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 439 compressed objects within 5 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 434 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,7 +8,7 @@ in fase di auto-generazione del codice relativo al lexer e al parser.
 \begin{lstlisting}[style=antlr]
 /* Regole della grammatica descritte sopra */
 
-ERR     : . { errors.add("Invalid character: "+ getText()); } -> channel(HIDDEN);
+ERR     : . { errors.add('Invalid character: '+ getText()); } -> channel(HIDDEN);
 \end{lstlisting}
 
 
