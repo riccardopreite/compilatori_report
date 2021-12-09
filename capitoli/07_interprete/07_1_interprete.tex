@@ -13,5 +13,21 @@ Ogni istruzione è composta da:
     \item \textbf{Terzo argomento}: serve per specificare un registro, un numero o un'etichetta. È una stringa opzionale.
 \end{itemize}
 Per ogni istruzione letta viene creato un oggetto di tipo \emph{Instruction}, definito dalla classe Instruction.java.
-
+\subsubsection{CPU e memoria}
+L'interprete simula il comportamento di una CPU e di una memoria.
+La CPU ha 9 registri: 
+\begin{itemize}
+    \item \textbf{Stack pointer (\$sp)}: punta alla cima dello stack
+    \item \textbf{Instruction pointer (\$ip)}: indica la prossima istruzione da eseguire
+    \item \textbf{Heap pointer (\$hp)}: punta alla prima posizione libera dello \emph{heap}
+    \item \textbf{Frame pointer (\$fp)}: punta all'access link corrente relativo al frame attivo
+    \item \textbf{Access link (\$al)}: registro utilizzato per attraversare la catena statica degli scope
+    \item \textbf{Base stack pointer (\$bsp)}: punta alla cella di memoria contenente il vecchio stack pointer, utile nel caso si esca da una funzione prima della fine delle istruzioni tramite un return
+    \item \textbf{Accumulatore (\$a0)}: registro utilizzato per salvare il valore calcolato da alcune espressioni
+    \item \textbf{Registro generico (\$t1)}: utilizzabile liberamente all'interno del programma  
+    \item \textbf{Return address (\$ra)}: registro utilizzato per salvare l'indirizzo di ritorno una volta usciti da un frame
+\end{itemize}
+La CPU esegue le istruzioni passate al costruttore dall'interprete. Dopodiché, ad ofni iterazione, si accede all'istruzione indicata dal registro \emph{\$ip} che poi viene incrementato di uno per passare ad eseguire l'istruzione successiva. L'operazione da eseguire dipende dal campo \emph{code} dell'oggetto \emph{Instruction}.  
+\newline
+Per gestire i registri si utilizzano le funzioni \emph{regStore} e \emph{regRead} per aggiornare e leggere il valore contenuto nel registro opportuno.
 \end{document}
