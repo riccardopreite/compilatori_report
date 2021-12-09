@@ -22,14 +22,15 @@
 \contentsline {section}{\numberline {4}Controllo dei tipi}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Tipi}{9}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}Corretto uso dei puntatori}{9}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Parametri attuali non conformi ai parametri formali}{10}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2}Parametri attuali non conformi ai parametri formali}{9}{subsubsection.4.1.2}%
 \contentsline {section}{\numberline {5}Analisi degli effetti}{11}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Struttura ambiente}{11}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Effetti}{11}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Compilatore}{12}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Compilatore SimplanPlus}{12}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Interprete}{13}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Interprete SimplanPlus}{13}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Bytecode}{13}{subsubsection.7.1.1}%
-\contentsline {section}{\numberline {8}Esempi}{14}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Esempio 1}{14}{subsection.8.1}%
+\contentsline {subsection}{\numberline {5.3}Limiti}{12}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Compilatore}{14}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Compilatore SimplanPlus}{14}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Interprete}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Interprete SimplanPlus}{15}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Bytecode}{15}{subsubsection.7.1.1}%
+\contentsline {section}{\numberline {8}Esempi}{16}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Esempio 1}{16}{subsection.8.1}%

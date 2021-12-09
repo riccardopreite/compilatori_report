@@ -1,0 +1,13 @@
+\documentclass[../../main]{subfiles}
+\begin{document}
+
+\subsection{Limiti}
+
+Uno dei limiti del controllore di tipi implementato è l'insensibilità alla presenza di valori non dichiarati. In particolare, dal momento che la funzione di sequenzializzazionefra un valore $\bot$ ed uno $rw$ è $rw$, qualora siano presenti valori non inizializzati, il sistema di controllo degli effetti non è in gradi di rilevare l'errore.
+
+Gli errori dovuti alla non inizializzazione dei puntatoi vengono rilevati dinamicamente: ogni volta che il valore dello stack pointer viene incrementato, i valori nell'intervallo compreso fra i due valori vengono contrassegnati come illeggibili. Similmente, a seguito della liberazione di un'area dello heap tale area viene contrassegnata come illeggibile.
+
+La macchina virtuale è in grado di sollevare un errore dinamicamente qualore venga rilevato un accesso ad un valore illeggibile sollevando un'eccezione. Dal momento che anche a seguito della contrassegnazione di non leggibilità anche a seguto di cancellazione di aree allocate, anche errori dovuti a situazioni complesse di aliasing dovute ad esempio ad assegnazioni di puntatori dereferenziati parzialmente sono certamente rilevarte dinamicamente dalla virtua machine che abbiamo implementato.
+
+ 
+\end{document}

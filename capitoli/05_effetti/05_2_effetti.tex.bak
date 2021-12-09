@@ -1,7 +1,7 @@
 \documentclass[../../main]{subfiles}
 \begin{document}
 
-Una particolarità di tale struttura è la sua intrinseca disomogeneità: mentre agli identificatori di variabili sono associati effetti semplici o composti, agli identificatori di funzioni sono associati ambienti, rendendo le strutture degli effetti e delle funzioni mutualmente ricorsive.
+Una particolarità di tale struttura è la sua intrinseca disomogeneità: mentre agli identificatori di variabili sono associati effessi semplici o composti, agli identificatori di funzioni sono associati ambienti, rendendo le strutture degli effetti e delle funzioni mutualmente ricorsive.
 
 \begin{align*}
 \Sigma &::=\ \{[x_0 \to Eff] \ldots [x_n \to Eff]\}::\Sigma\ |\ nil\\ 
@@ -11,7 +11,7 @@ BEff &::=\ \bot\ |\ rw\ |\ d\ |\ \top\ \\
 
 \subsection{Effetti}
 
-La sintassi degli effetti è descritta dal non terminale \emph{Eff} nella grammatica appena rappresentata. 
+La sintassi degli effetti è descrita dal non terminale \emph{Eff} nella grammatica appena rappresentata. 
 
 Gli effetti base sono:
 
@@ -44,7 +44,7 @@ $$
 Par(x, y) := max(Seq(x,y), Seq(y, x))
 $$
 
-Simili funzioni sono state definite generalizzando quelle appena illustrate al caso di liste di effetti. L'operatore di composizione sequenziale è utilizzato per calcolare l'effetto risultante dall'applicazione di un effetto $y$ ad uno stato $x$. L'operatore di sequenzializzazione parallela è usato per risolvere semplici situazioni di aliasing fra parametri di funzioni.
+Simili funzioni sono state definite generalizzando quelle appena illustrate al caso di liste di effetti. L'operatore di composizione sequenziale è utilizzato per calcolare l'effetto risultante dall'applicazione di un effetto $y$ ad uno statp $x$. L'operatore di sequenzializzazione parallela è usato per risolvere semplici situazioni di aliasing fra parametri di funzioni.
 
  
 \end{document}

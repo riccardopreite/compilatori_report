@@ -1,0 +1,23 @@
+\documentclass[../../main]{subfiles}
+\begin{document}
+
+Il compilatore di \texttt{SimpLanPlus} effettua un controllo statico della presenza di errori dovuti alla cancellazione di puntatori o all'uso di punttori non inizializzati. Tale proprietà è \emph{estensionale}, dunque, per il teorema di Rice, non è decidibile. 
+
+Per questa ragione, durante la fase di sviluppo del controllore degli effetti abbiamo dovuto affrontare il problema relativo alla definizione di tale sistema di verifica. In primo luogo, abbiamo dovto effettuare una considerazione riguardo alla tipologia di approssimazone di tale proprietà. Una pprossimazione decidibile $Q$ di una proprietà decidibile $P$ non può coincidere con $P$. Deve altresì verificarsi una delle due conficurazioni $Q\subset P$ oppure $P \subset Q$. Nel primo caso, la proprietà $Q$ di cui godono i programmi corretti è più stringente di quella che si cerca di approssimare; esepio di questo tipo di approssimazioni sono i \emph{type checker} convenzionali, come ad esempio quello del \texttt{C}. Altrimenti, il controllore ammette che alcuni programmi che non godono della proprietà soggetta di verifica siano accettati; un simile caso è quello dei linter che analizzano i programma alla ricera di alcuni pattern di programmazione nocivi.
+
+Nel nostro caso, il controllo \emph{eager} del corretto uso dei puntatori e dell'accesso a variabili non inizializzate, sebbene approcciabile nel caso di programmi sequenziali, sarebbe diventato oltremodo complessso in presenza di chiamate di funzioni. Per un risultato corretto in questo caso, avremmo dovuto adottare delle approssimazioni troppo grossolane della probabilità cercata a causa della possibilità di aliasing fra i parametri e dall'accesso a variabili esterne.
+
+Oppure, avremmo dovuto imporre limitazioni sintattiche (semantiche) ai programmi, proibedo situazioni come quelle descritte sopra. Questo approccio avrebbe però limitato le proprietà espressive del nostro linguaggio.
+
+Inoltre, i più diffusi linguaggi di programmazione non effettuano questo tipo di controlli o limitazioni.
+
+Per queste considerazioni, abbiamo scelto di implementare un controllore che non fosse in grado di impedire l'esecuzione programmi errati durante la fase di compilazione, ma che fosse in grado di rilevare alcune di queste problematiche 
+
+\subsection{Struttura ambiente}
+
+Nel contesto di un controllo di tipi, un abiente è una funzione parziale da identificativi di variabili ad un insieme di valori che descrivono modularmente la proprietà di interesse.
+
+L'ambiente a cui siamo ricorsi, è stato implementato per mezzo della medesima symbol table utilizzata in fase di analisi semantica e di controllo dei tipi, in modo da rappresentare naturalmente la struttura \emph{a stack} dell'insieme degli identigficativi dovuta alla presenza di blocchi all'interno del codice. 
+
+
+\end{document}
