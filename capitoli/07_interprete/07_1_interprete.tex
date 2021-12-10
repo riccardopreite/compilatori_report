@@ -55,5 +55,14 @@ Nella classe \emph{Memory} sono presenti i seguenti metodi per la gestione della
     \item \emph{void free(int add)} che chiama la \emph{free} su quella cella, mettendo il campo \emph{pointed} a false e il campo \emph{val} a null
     \item \emph{void cleanMemory(int start, int end)} che re-inizializza tutte le celle comprese tra start ed end
 \end{itemize}
-
+\subsubsection{Record di attivazione}
+Lo \emph{stack} in memoria è diviso in record di attivazione (\emph{ra}). Quando si entra in un nuovo blocco, si pusha il nuovo \emph{ra}. All'uscita dal blocco viene fatto una operazione di pop del \emph{ra} attuale.
+Il record di attivazione è composto come segue: 
+\begin{itemize}
+    \item \textbf{Old frame pointer}: contiene l'indirizzo del frame pointer prima del push del nuovo \emph{ra}
+    \item \textbf{Old stack pointer}: contiene l'indirizzo dello stack pointer prima del push del nuovo \emph{ra}
+    \item \textbf{Return address}: contiene il valore dell' \emph{\$ip} e quindi l'istruzione da eseguire una volta terminata l'esecuzione attuale
+    \item \textbf{Access link}: serve per accedere alle variabili dichiarate in scope esterni
+    \item \textbf{Spazio di memoria riservato alle variabili}
+\end{itemize}
 \end{document}
