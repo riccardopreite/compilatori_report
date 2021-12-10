@@ -39,10 +39,10 @@
     moredelim=*[s][\color{black}\ttfamily]{options}{\}}, % options in black (until trailing })
     commentstyle={\color{green!50!black}\itshape}, % gray italics for comments
     morecomment=[l]{//}, % define // comment
-    emph={block,declaration,decFun,decVar,statement,assignment,deletion,print,ret,ite,call,exp,type,lhs,arg},
+    emph={block,declaration,decFun,decVar,statement,assignment,deletion,print,ret,ite,call,exp,type,lhs,arg,HIDDEN},
     emphstyle={\color{yellow}\ttfamily}, % and formatted in orange
     alsoletter={:,|,;},
-    morekeywords={ID,BOOL,NUMBER,CHAR,DIGIT,WS,LINECOMMENTS,BLOCKCOMMENTS,WS}, % define the special characters
+    morekeywords={ID,BOOL,NUMBER,CHAR,DIGIT,WS,LINECOMMENTS,BLOCKCOMMENTS,WS,ERR}, % define the special characters
     keywordstyle={\color{purple}}, % and format them in black
 }
 \lstdefinestyle{java}{
@@ -50,6 +50,7 @@
     breaklines=true, % allow line breaks
     moredelim=[s][\color{green}\ttfamily]{'}{'}, % single quotes in green
     moredelim=[s][\color{green}\ttfamily]{"}{"}, % single quotes in green
+    moredelim=[s][\color{green!50!black}\ttfamily]{/*}{*/}, % comments block in green
     moredelim=*[s][\color{black}\ttfamily]{options}{\}}, % options in black (until trailing })
     commentstyle={\color{green!50!black}\itshape}, % gray italics for comments
     morecomment=[l]{//}, % define // comment

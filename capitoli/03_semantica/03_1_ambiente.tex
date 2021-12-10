@@ -17,7 +17,7 @@ come il livello di annidamento attuale e l'offset di partenza (differisce nel ca
 Ogni volta che uno scope viene creato il nesting level aumenta e una nuova, pulita, HashMap viene aggiunta in coda alla lista di Symbol Table
 accendendovi in maniera LIFO (Last In First Out).
 Ogni elemento di questo array rappresenta quindi una Symbol Table per quel nesting level dove una Symbol Table a sua volta rappresenta una mappa
-\textbf{String -> STentry} dove la stringa è l'identificativo della variabile in questione.
+\textbf{String --\textgreater\ STentry} dove la stringa è l'identificativo della variabile in questione.
 I principali compiti svolti da questa classe sono quelli di \textbf{Push \& Pop} di uno scope e la ricerca di una variabile tramite il metodo
 \textbf{lookUp(id)}. 
 Questi metodi vengono utilizzati nella sezione successiva per raccogliere eventuali errori semantici e farli presente all'utente alla fine della compilazione.

@@ -368,6 +368,9 @@ INPUT /home/smog/compilatori_report/capitoli/03_semantica.tex
 INPUT /home/smog/compilatori_report/capitoli/03_semantica.tex
 INPUT /home/smog/compilatori_report/capitoli/03_semantica/03_1_ambiente.tex
 INPUT /home/smog/compilatori_report/capitoli/03_semantica/03_1_ambiente.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /home/smog/compilatori_report/capitoli/03_semantica/03_2_errori.tex
 INPUT /home/smog/compilatori_report/capitoli/03_semantica/03_2_errori.tex
 INPUT /home/smog/compilatori_report/capitoli/04_tipi.tex
@@ -380,6 +383,8 @@ INPUT /home/smog/compilatori_report/capitoli/05_effetti/05_1_ambienti.tex
 INPUT /home/smog/compilatori_report/capitoli/05_effetti/05_1_ambienti.tex
 INPUT /home/smog/compilatori_report/capitoli/05_effetti/05_2_effetti.tex
 INPUT /home/smog/compilatori_report/capitoli/05_effetti/05_2_effetti.tex
+INPUT /home/smog/compilatori_report/capitoli/05_effetti/05_3_limiti.tex
+INPUT /home/smog/compilatori_report/capitoli/05_effetti/05_3_limiti.tex
 INPUT /home/smog/compilatori_report/capitoli/06_compilatore.tex
 INPUT /home/smog/compilatori_report/capitoli/06_compilatore.tex
 INPUT /home/smog/compilatori_report/capitoli/06_compilatore/06_1_compilatore.tex
@@ -391,6 +396,8 @@ INPUT /home/smog/compilatori_report/capitoli/07_interprete.tex
 INPUT /home/smog/compilatori_report/capitoli/07_interprete.tex
 INPUT /home/smog/compilatori_report/capitoli/07_interprete/07_1_interprete.tex
 INPUT /home/smog/compilatori_report/capitoli/07_interprete/07_1_interprete.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcbx1095.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcti1095.tfm
 INPUT /home/smog/compilatori_report/capitoli/08_esempi.tex
 INPUT /home/smog/compilatori_report/capitoli/08_esempi.tex
 INPUT /home/smog/compilatori_report/capitoli/08_esempi/08_1_esempi
@@ -398,12 +405,18 @@ INPUT /home/smog/compilatori_report/capitoli/08_esempi/08_1_esempi
 INPUT /home/smog/compilatori_report/main.aux
 INPUT /home/smog/compilatori_report/main.out
 INPUT /home/smog/compilatori_report/main.out
+INPUT /home/smog/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1095.600pk
+INPUT /home/smog/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1095.600pk
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /home/smog/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
