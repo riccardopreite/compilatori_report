@@ -1,8 +1,162 @@
 \documentclass[../../main]{subfiles}
 \begin{document}
 
-\subsection{Esempio 1}
+* parametri attuali non conformi ai parametri formali (inclusa la verifica sui 
+  parametri passati per var)
+* la correttezza dei tipi 
 
+\subsection{Variabili o Funzioni non dichiarate}
 
+\begin{lstlisting}
+    {
+        int x = c;
+    }
+\end{lstlisting}
+In questo caso viene sollevato un errore semantico in quando l'identificatore c
+non è presente all'interno della symbol table.
+\begin{lstlisting}
+    {
+        int x = f();
+    }
+\end{lstlisting}
+Questo invece è un caso analogo al primo in cui viene sollevato lo stesso errore
+dovuto al fatto che la funzione non è dichiarata.
 
+In entrambi i casi l'output è:
+\textit{Id 'id' not declared.}
+
+\subsection{Dichiarazioni multiple}
+\begin{lstlisting}
+    {
+        int x = 1;
+        bool x = true;
+    }
+\end{lstlisting}
+Qui viene sollevato un errore in quando la variabile con identificatico x è già presente
+nello scope attuale.
+
+\begin{lstlisting}
+    {
+        void x(){
+            print 1;
+        }
+        void x(){
+            print 2;
+        }
+    }
+\end{lstlisting}
+Come nel caso precedente viene sollevato un errore semantico:
+\textit{Var|Fun id 'x' already declared}
+
+\subsection{Variabili non inizializzate}
+
+\begin{lstlisting}
+    {
+        int x;
+        int y;
+        x = y;
+    }
+\end{lstlisting}
+In questo caso viene sollevato un errore a run time in quanto in base alle slide della lezione
+un identificatore presente nel rhs viene messo in automatico ad uno stato rw. L'analisi degli effetti 
+non produce quindi nessun errore ma a run time il programma si blocca dicendo che il valore non è scritto in memoria.
+
+\begin{lstlisting}
+    {
+        ^int x;
+        int y;
+        x^ = y;
+    }
+\end{lstlisting}
+Questo programma genera un errore durante la compilazione perchè il puntatore x non ha tutte le dereferenziazioni
+precedenti a rw.
+
+\begin{lstlisting}
+    {
+        ^int x = new int;
+        int y;
+        x^ = y;
+    }
+
+\end{lstlisting}
+In questo caso viene restituito un errore a run time come nel primo caso.
+\textit{Value is not written in memory}
+
+\subsection{Puntatori}
+\begin{lstlisting}
+    {
+        ^int x = new int;
+        ^^int y = new ^int;
+        y^ = new int;
+        y^^ = 2;
+        x^ = y^^ + 1;
+        print x^;
+        x = y^;
+        print x^;
+    }
+\end{lstlisting}
+Questo programma compila ed esegue correttamente facendo notare il corretto utilizzo dei puntatori.
+Le dereferenziazioni corrispondono, i puntatori sono inizializzati correttamente e quindi non viene sollevato 
+alcun errore statico. Inoltre i valori sono effettivamente scritti in memoria e quindi non viene sollevato neanche un errore
+a run time. Il programma termina correttamente stampando prima 3 e poi 2, in quando x viene riassegnato alla stessa zona di memoria di y.
+
+\subsection{Conformità dei parametri}
+\begin{lstlisting}
+    {
+        void sum(int a, int b){
+            print a+b;
+        }
+        sum(1);
+    }
+\end{lstlisting}
+Questo programma genera un errore semantico in quanto il numero dei parametri attuali non è conforme ai parametri formali.
+Analogalmente il seguente codice:
+\begin{lstlisting}
+    {
+        void sum(int a, int b){
+            print a+b;
+        }
+        sum(1,true);
+    }
+\end{lstlisting}
+Genera un altro errore semantico: \textit{Wrong type for 2-th parameter in the invocation of sum}
+in quanto il secondo parametro attuale non è dello stesso tipo del secondo parametro formale.
+
+\begin{lstlisting}
+    {
+        void sum(int a, int b){
+            print a+b;
+        }
+
+        ^int x = new int;
+        x^ = 1;
+        sum(x,2);
+    }
+\end{lstlisting}
+Infine in questo caso viene sollevato lo stesso errore semantico del secondo caso in quanto la variabile non viene dereferenziata in conformità con il parametro formale.
+
+\subsection{Correttezza dei tipi}
+\begin{lstlisting}
+    {
+        ^int x = new int;
+        int c = 10;
+
+        bool boolean = true;
+        ^bool pointerBoolean = new bool;
+
+        print c;
+        print boolean;
+
+        x^ = 2;
+        pointerBoolean^ = false;
+        c = x^;
+        boolean = pointerBoolean^;
+
+        print c;
+        print boolean;
+
+    }
+\end{lstlisting}
+Il seguente programma dimostra la correttezza dei tipi implementata. Per entrambe le variabili la dereferenziazione avviene correttamente e i tipi combaciano.
+Il programma stampa prima i valori assegnati durante la dichiarazione ovvero 10 e true(1). Dopo l'assegnamento l'output è 2 e false(0).
 \end{document}
