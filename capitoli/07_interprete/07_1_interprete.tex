@@ -64,4 +64,15 @@ Il record di attivazione è composto come segue:
     \item \textbf{Access link}: serve per accedere alle variabili dichiarate in scope esterni
     \item \textbf{Spazio di memoria riservato alle variabili}
 \end{itemize}
+
+\subsubsection{Come funziona l'interprete?}
+Il funzionamento dell'interprete possiamo vederlo in \emph{SVM.java}. Il costruttore prende in input il codice passato all'interprete e lo assegna al campo code.
+La classe SVM ha i seguenti campi privati:
+\begin{itemize}
+    \item \textbf{Instruction[] code}: andrà a contenere la sequenza ordinata di istruzioni che l'interprete dovrà eseguire
+    \item \textbf{Memory memory}: rappresenta la memoria dell'interprete che è logicamente divisa in \emph{heap} e \emph{stack}
+    \item \textbf{I registri}: \textbf{ip} (inizializzato a 0), \textbf{sp} (inizializzato a \emph{memory_size}), \textbf{hp} (inizializzato a 0), \textbf{fp} inizializzato a \emph{memory_size-1}, \textbf{ra} (inizializzato a null), \textbf{al} (inizializzato a null), \textbf{bsp} (inizializzato a \emph{memory_size}) 
+\end{itemize}
+Il metodo \emph{cpu()} della classe SVM esegue le istruzioni all'interno di \emph{code} mediante un ciclo \emph{while(true)} fino a quando lo \emph{heap} supera lo \emph{stack} dando un errore di \emph{Out of memory}.
+Ad ogni iterazione viene letta l'istruzione da eseguire, vengono salvati gli argomenti che possiete e incrementato l'\emph{ip}. Tramite un grosso switch si gestisce il comportamento in base all'istruzione in esecuzione. 
 \end{document}

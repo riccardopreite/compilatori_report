@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.2)  10 DEC 2021 16:18
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.6)  10 DEC 2021 17:04
->>>>>>> 005c8c5495be6db066a472e83d77683cc801db42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.2)  10 DEC 2021 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/smog/compilatori_report/capitoli/07_interprete/07_1_interprete.tex
-(/home/smog/compilatori_report/capitoli/07_interprete/07_1_interprete.tex
+**/home/smog/compilatori_report/capitoli/06_compilatore/06_1_compilatore.tex
+(/home/smog/compilatori_report/capitoli/06_compilatore/06_1_compilatore.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.cls
 Document Class: subfiles 2020/02/14 v1.6 Multi-file projects (class)
@@ -654,8 +650,8 @@ Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
  (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
-))))) (/home/smog/compilatori_report/capitoli/07_interprete/07_1_interprete.aux)
-\openout1 = `07_1_interprete.aux'.
+))))) (/home/smog/compilatori_report/capitoli/06_compilatore/06_1_compilatore.aux)
+\openout1 = `06_1_compilatore.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
@@ -741,9 +737,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 2.
 LaTeX Info: Redefining \pageref on input line 2.
 LaTeX Info: Redefining \nameref on input line 2.
- (/home/smog/compilatori_report/capitoli/07_interprete/07_1_interprete.out) (/home/smog/compilatori_report/capitoli/07_interprete/07_1_interprete.out)
+ (/home/smog/compilatori_report/capitoli/06_compilatore/06_1_compilatore.out) (/home/smog/compilatori_report/capitoli/06_compilatore/06_1_compilatore.out)
 \@outlinefile=\write6
-\openout6 = `07_1_interprete.out'.
+\openout6 = `06_1_compilatore.out'.
 
 \c@lstlisting=\count327
  ABD: EveryShipout initializing macros
@@ -752,37 +748,37 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             ! on input line 2.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--34
-
- []
-
+<images/esempioesec.png, id=47, 774.64406pt x 239.39438pt>
+File: images/esempioesec.png Graphic file (type png)
+<use images/esempioesec.png>
+Package pdftex.def Info: images/esempioesec.png  used on input line 19.
+(pdftex.def)             Requested size: 483.70218pt x 199.16849pt.
+ 
+AED: lastpage setting LastPage
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] 
-AED: lastpage setting LastPage
-[2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
- (/home/smog/compilatori_report/capitoli/07_interprete/07_1_interprete.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
-Package rerunfilecheck Info: File `07_1_interprete.out' has not changed.
-(rerunfilecheck)             Checksum: 7C2F477C8D7CCCF2CA9381A5D165367F;281.
+ <./images/esempioesec.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 22.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
+ (/home/smog/compilatori_report/capitoli/06_compilatore/06_1_compilatore.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 22.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
+Package rerunfilecheck Info: File `06_1_compilatore.out' has not changed.
+(rerunfilecheck)             Checksum: FB866E4B931D27BCE913ECFDA5EDB072;63.
  ) 
 Here is how much of TeX's memory you used:
- 25831 strings out of 481239
- 517148 string characters out of 5920377
- 821001 words of memory out of 5000000
- 40597 multiletter control sequences out of 15000+600000
- 534964 words of font info for 32 fonts, out of 8000000 for 9000
+ 25833 strings out of 481239
+ 517251 string characters out of 5920377
+ 818003 words of memory out of 5000000
+ 40601 multiletter control sequences out of 15000+600000
+ 534238 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,120p,563b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/smog/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1095.600pk> </home/smog/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1095.600pk> </home/smog/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/smog/compilatori_report/capitoli/07_interprete/07_1_interprete.pdf (2 pages, 72866 bytes).
+ 84i,11n,120p,565b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/smog/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on /home/smog/compilatori_report/capitoli/06_compilatore/06_1_compilatore.pdf (1 page, 92134 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
