@@ -1,10 +1,5 @@
 \documentclass[../../main]{subfiles}
 \begin{document}
-
-* parametri attuali non conformi ai parametri formali (inclusa la verifica sui 
-  parametri passati per var)
-* la correttezza dei tipi 
-
 \subsection{Variabili o Funzioni non dichiarate}
 
 \begin{lstlisting}
@@ -12,7 +7,7 @@
         int x = c;
     }
 \end{lstlisting}
-In questo caso viene sollevato un errore semantico in quando l'identificatore c
+In questo caso viene sollevato un errore semantico in quanto l'identificatore c
 non è presente all'interno della symbol table.
 \begin{lstlisting}
     {
@@ -32,7 +27,7 @@ In entrambi i casi l'output è:
         bool x = true;
     }
 \end{lstlisting}
-Qui viene sollevato un errore in quando la variabile con identificatico x è già presente
+Qui viene sollevato un errore in quanto la variabile con identificatico x è già presente
 nello scope attuale.
 
 \begin{lstlisting}
@@ -68,7 +63,7 @@ non produce quindi nessun errore ma a run time il programma si blocca dicendo ch
         x^ = y;
     }
 \end{lstlisting}
-Questo programma genera un errore durante la compilazione perchè il puntatore x non ha tutte le dereferenziazioni
+Questo programma genera un errore durante la compilazione perchè il puntatore x non ha tutte le \\ dereferenziazioni
 precedenti a rw.
 
 \begin{lstlisting}
@@ -98,7 +93,7 @@ In questo caso viene restituito un errore a run time come nel primo caso.
 Questo programma compila ed esegue correttamente facendo notare il corretto utilizzo dei puntatori.
 Le dereferenziazioni corrispondono, i puntatori sono inizializzati correttamente e quindi non viene sollevato 
 alcun errore statico. Inoltre i valori sono effettivamente scritti in memoria e quindi non viene sollevato neanche un errore
-a run time. Il programma termina correttamente stampando prima 3 e poi 2, in quando x viene riassegnato alla stessa zona di memoria di y.
+a run time. Il programma termina correttamente stampando prima 3 e poi 2, in quanto x viene riassegnato alla stessa zona di memoria di y.
 
 \subsection{Conformità dei parametri}
 \begin{lstlisting}
@@ -110,7 +105,7 @@ a run time. Il programma termina correttamente stampando prima 3 e poi 2, in qua
     }
 \end{lstlisting}
 Questo programma genera un errore semantico in quanto il numero dei parametri attuali non è conforme ai parametri formali.
-Analogalmente il seguente codice:
+Analogamente il seguente codice:
 \begin{lstlisting}
     {
         void sum(int a, int b){
@@ -157,6 +152,6 @@ Infine in questo caso viene sollevato lo stesso errore semantico del secondo cas
 
     }
 \end{lstlisting}
-Il seguente programma dimostra la correttezza dei tipi implementata. Per entrambe le variabili la dereferenziazione avviene correttamente e i tipi combaciano.
+Il seguente programma dimostra la correttezza dei tipi implementata. Per entrambe le variabili la \\ dereferenziazione avviene correttamente e i tipi combaciano.
 Il programma stampa prima i valori assegnati durante la dichiarazione ovvero 10 e true(1). Dopo l'assegnamento l'output è 2 e false(0).
 \end{document}

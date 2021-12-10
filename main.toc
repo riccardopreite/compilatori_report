@@ -42,5 +42,5 @@
 \contentsline {subsection}{\numberline {8.4}Puntatori}{20}{subsection.8.4}%
 \contentsline {subsection}{\numberline {8.5}Conformità dei parametri}{20}{subsection.8.5}%
 \contentsline {subsection}{\numberline {8.6}Correttezza dei tipi}{21}{subsection.8.6}%
-\contentsline {section}{\numberline {A}Installazione}{22}{appendix.A}%
-\contentsline {section}{\numberline {B}References}{23}{appendix.B}%
+\contentsline {section}{\numberline {A}Installazione}{23}{appendix.A}%
+\contentsline {section}{\numberline {B}References}{24}{appendix.B}%

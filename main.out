@@ -1,45 +1,45 @@
-\BOOKMARK [1][-]{section.1}{Introduzione}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Obiettivo}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Il Linguaggio - SimplanPlus}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{Compilatore}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.4}{Interprete}{section.1}% 5
-\BOOKMARK [2][-]{subsection.1.5}{Stato dell'arte}{section.1}% 6
-\BOOKMARK [1][-]{section.2}{Grammatica}{}% 7
-\BOOKMARK [2][-]{subsection.2.1}{Blocchi}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.2}{Dichiarazioni}{section.2}% 9
-\BOOKMARK [2][-]{subsection.2.3}{Istruzioni}{section.2}% 10
-\BOOKMARK [2][-]{subsection.2.4}{Espressioni}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.5}{Commenti e caratteri ignorati}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.6}{Errori grammaticali}{section.2}% 13
-\BOOKMARK [1][-]{section.3}{Semantica}{}% 14
-\BOOKMARK [2][-]{subsection.3.1}{Ambiente}{section.3}% 15
-\BOOKMARK [3][-]{subsubsection.3.1.1}{STentry}{subsection.3.1}% 16
-\BOOKMARK [3][-]{subsubsection.3.1.2}{Environment}{subsection.3.1}% 17
-\BOOKMARK [2][-]{subsection.3.2}{Errori semantici}{section.3}% 18
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Variabili/Funzioni non dichiarate}{subsection.3.2}% 19
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Variabili dichiarate pi\371 volte nello stesso ambiente}{subsection.3.2}% 20
-\BOOKMARK [1][-]{section.4}{Controllo dei tipi}{}% 21
-\BOOKMARK [2][-]{subsection.4.1}{Tipi}{section.4}% 22
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Corretto uso dei puntatori}{subsection.4.1}% 23
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Parametri attuali non conformi ai parametri formali}{subsection.4.1}% 24
-\BOOKMARK [1][-]{section.5}{Analisi degli effetti}{}% 25
-\BOOKMARK [2][-]{subsection.5.1}{Struttura ambiente}{section.5}% 26
-\BOOKMARK [2][-]{subsection.5.2}{Effetti}{section.5}% 27
-\BOOKMARK [2][-]{subsection.5.3}{Limiti}{section.5}% 28
-\BOOKMARK [1][-]{section.6}{Compilatore}{}% 29
-\BOOKMARK [2][-]{subsection.6.1}{Compilatore SimplanPlus}{section.6}% 30
-\BOOKMARK [1][-]{section.7}{Interprete}{}% 31
-\BOOKMARK [2][-]{subsection.7.1}{Interprete SimplanPlus}{section.7}% 32
-\BOOKMARK [3][-]{subsubsection.7.1.1}{Bytecode}{subsection.7.1}% 33
-\BOOKMARK [3][-]{subsubsection.7.1.2}{CPU e memoria}{subsection.7.1}% 34
-\BOOKMARK [3][-]{subsubsection.7.1.3}{Record di attivazione}{subsection.7.1}% 35
-\BOOKMARK [3][-]{subsubsection.7.1.4}{Come funziona l'interprete?}{subsection.7.1}% 36
-\BOOKMARK [1][-]{section.8}{Esempi}{}% 37
-\BOOKMARK [2][-]{subsection.8.1}{Variabili o Funzioni non dichiarate}{section.8}% 38
-\BOOKMARK [2][-]{subsection.8.2}{Dichiarazioni multiple}{section.8}% 39
-\BOOKMARK [2][-]{subsection.8.3}{Variabili non inizializzate}{section.8}% 40
-\BOOKMARK [2][-]{subsection.8.4}{Puntatori}{section.8}% 41
-\BOOKMARK [2][-]{subsection.8.5}{Conformit\340 dei parametri}{section.8}% 42
-\BOOKMARK [2][-]{subsection.8.6}{Correttezza dei tipi}{section.8}% 43
-\BOOKMARK [1][-]{appendix.A}{Installazione}{}% 44
-\BOOKMARK [1][-]{appendix.B}{References}{}% 45
+\BOOKMARK [1][-]{section.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000z\000i\000o\000n\000e}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{\376\377\000O\000b\000i\000e\000t\000t\000i\000v\000o}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{\376\377\000I\000l\000\040\000L\000i\000n\000g\000u\000a\000g\000g\000i\000o\000\040\000-\000\040\000S\000i\000m\000p\000l\000a\000n\000P\000l\000u\000s}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{\376\377\000C\000o\000m\000p\000i\000l\000a\000t\000o\000r\000e}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{\376\377\000I\000n\000t\000e\000r\000p\000r\000e\000t\000e}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{\376\377\000S\000t\000a\000t\000o\000\040\000d\000e\000l\000l\000'\000a\000r\000t\000e}{section.1}% 6
+\BOOKMARK [1][-]{section.2}{\376\377\000G\000r\000a\000m\000m\000a\000t\000i\000c\000a}{}% 7
+\BOOKMARK [2][-]{subsection.2.1}{\376\377\000B\000l\000o\000c\000c\000h\000i}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.2}{\376\377\000D\000i\000c\000h\000i\000a\000r\000a\000z\000i\000o\000n\000i}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{\376\377\000I\000s\000t\000r\000u\000z\000i\000o\000n\000i}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.4}{\376\377\000E\000s\000p\000r\000e\000s\000s\000i\000o\000n\000i}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.5}{\376\377\000C\000o\000m\000m\000e\000n\000t\000i\000\040\000e\000\040\000c\000a\000r\000a\000t\000t\000e\000r\000i\000\040\000i\000g\000n\000o\000r\000a\000t\000i}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.6}{\376\377\000E\000r\000r\000o\000r\000i\000\040\000g\000r\000a\000m\000m\000a\000t\000i\000c\000a\000l\000i}{section.2}% 13
+\BOOKMARK [1][-]{section.3}{\376\377\000S\000e\000m\000a\000n\000t\000i\000c\000a}{}% 14
+\BOOKMARK [2][-]{subsection.3.1}{\376\377\000A\000m\000b\000i\000e\000n\000t\000e}{section.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.1.1}{\376\377\000S\000T\000e\000n\000t\000r\000y}{subsection.3.1}% 16
+\BOOKMARK [3][-]{subsubsection.3.1.2}{\376\377\000E\000n\000v\000i\000r\000o\000n\000m\000e\000n\000t}{subsection.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.2}{\376\377\000E\000r\000r\000o\000r\000i\000\040\000s\000e\000m\000a\000n\000t\000i\000c\000i}{section.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.1}{\376\377\000V\000a\000r\000i\000a\000b\000i\000l\000i\000/\000F\000u\000n\000z\000i\000o\000n\000i\000\040\000n\000o\000n\000\040\000d\000i\000c\000h\000i\000a\000r\000a\000t\000e}{subsection.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.2}{\376\377\000V\000a\000r\000i\000a\000b\000i\000l\000i\000\040\000d\000i\000c\000h\000i\000a\000r\000a\000t\000e\000\040\000p\000i\000\371\000\040\000v\000o\000l\000t\000e\000\040\000n\000e\000l\000l\000o\000\040\000s\000t\000e\000s\000s\000o\000\040\000a\000m\000b\000i\000e\000n\000t\000e}{subsection.3.2}% 20
+\BOOKMARK [1][-]{section.4}{\376\377\000C\000o\000n\000t\000r\000o\000l\000l\000o\000\040\000d\000e\000i\000\040\000t\000i\000p\000i}{}% 21
+\BOOKMARK [2][-]{subsection.4.1}{\376\377\000T\000i\000p\000i}{section.4}% 22
+\BOOKMARK [3][-]{subsubsection.4.1.1}{\376\377\000C\000o\000r\000r\000e\000t\000t\000o\000\040\000u\000s\000o\000\040\000d\000e\000i\000\040\000p\000u\000n\000t\000a\000t\000o\000r\000i}{subsection.4.1}% 23
+\BOOKMARK [3][-]{subsubsection.4.1.2}{\376\377\000P\000a\000r\000a\000m\000e\000t\000r\000i\000\040\000a\000t\000t\000u\000a\000l\000i\000\040\000n\000o\000n\000\040\000c\000o\000n\000f\000o\000r\000m\000i\000\040\000a\000i\000\040\000p\000a\000r\000a\000m\000e\000t\000r\000i\000\040\000f\000o\000r\000m\000a\000l\000i}{subsection.4.1}% 24
+\BOOKMARK [1][-]{section.5}{\376\377\000A\000n\000a\000l\000i\000s\000i\000\040\000d\000e\000g\000l\000i\000\040\000e\000f\000f\000e\000t\000t\000i}{}% 25
+\BOOKMARK [2][-]{subsection.5.1}{\376\377\000S\000t\000r\000u\000t\000t\000u\000r\000a\000\040\000a\000m\000b\000i\000e\000n\000t\000e}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.2}{\376\377\000E\000f\000f\000e\000t\000t\000i}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.3}{\376\377\000L\000i\000m\000i\000t\000i}{section.5}% 28
+\BOOKMARK [1][-]{section.6}{\376\377\000C\000o\000m\000p\000i\000l\000a\000t\000o\000r\000e}{}% 29
+\BOOKMARK [2][-]{subsection.6.1}{\376\377\000C\000o\000m\000p\000i\000l\000a\000t\000o\000r\000e\000\040\000S\000i\000m\000p\000l\000a\000n\000P\000l\000u\000s}{section.6}% 30
+\BOOKMARK [1][-]{section.7}{\376\377\000I\000n\000t\000e\000r\000p\000r\000e\000t\000e}{}% 31
+\BOOKMARK [2][-]{subsection.7.1}{\376\377\000I\000n\000t\000e\000r\000p\000r\000e\000t\000e\000\040\000S\000i\000m\000p\000l\000a\000n\000P\000l\000u\000s}{section.7}% 32
+\BOOKMARK [3][-]{subsubsection.7.1.1}{\376\377\000B\000y\000t\000e\000c\000o\000d\000e}{subsection.7.1}% 33
+\BOOKMARK [3][-]{subsubsection.7.1.2}{\376\377\000C\000P\000U\000\040\000e\000\040\000m\000e\000m\000o\000r\000i\000a}{subsection.7.1}% 34
+\BOOKMARK [3][-]{subsubsection.7.1.3}{\376\377\000R\000e\000c\000o\000r\000d\000\040\000d\000i\000\040\000a\000t\000t\000i\000v\000a\000z\000i\000o\000n\000e}{subsection.7.1}% 35
+\BOOKMARK [3][-]{subsubsection.7.1.4}{\376\377\000C\000o\000m\000e\000\040\000f\000u\000n\000z\000i\000o\000n\000a\000\040\000l\000'\000i\000n\000t\000e\000r\000p\000r\000e\000t\000e\000?}{subsection.7.1}% 36
+\BOOKMARK [1][-]{section.8}{\376\377\000E\000s\000e\000m\000p\000i}{}% 37
+\BOOKMARK [2][-]{subsection.8.1}{\376\377\000V\000a\000r\000i\000a\000b\000i\000l\000i\000\040\000o\000\040\000F\000u\000n\000z\000i\000o\000n\000i\000\040\000n\000o\000n\000\040\000d\000i\000c\000h\000i\000a\000r\000a\000t\000e}{section.8}% 38
+\BOOKMARK [2][-]{subsection.8.2}{\376\377\000D\000i\000c\000h\000i\000a\000r\000a\000z\000i\000o\000n\000i\000\040\000m\000u\000l\000t\000i\000p\000l\000e}{section.8}% 39
+\BOOKMARK [2][-]{subsection.8.3}{\376\377\000V\000a\000r\000i\000a\000b\000i\000l\000i\000\040\000n\000o\000n\000\040\000i\000n\000i\000z\000i\000a\000l\000i\000z\000z\000a\000t\000e}{section.8}% 40
+\BOOKMARK [2][-]{subsection.8.4}{\376\377\000P\000u\000n\000t\000a\000t\000o\000r\000i}{section.8}% 41
+\BOOKMARK [2][-]{subsection.8.5}{\376\377\000C\000o\000n\000f\000o\000r\000m\000i\000t\000\340\000\040\000d\000e\000i\000\040\000p\000a\000r\000a\000m\000e\000t\000r\000i}{section.8}% 42
+\BOOKMARK [2][-]{subsection.8.6}{\376\377\000C\000o\000r\000r\000e\000t\000t\000e\000z\000z\000a\000\040\000d\000e\000i\000\040\000t\000i\000p\000i}{section.8}% 43
+\BOOKMARK [1][-]{appendix.A}{\376\377\000I\000n\000s\000t\000a\000l\000l\000a\000z\000i\000o\000n\000e}{}% 44
+\BOOKMARK [1][-]{appendix.B}{\376\377\000R\000e\000f\000e\000r\000e\000n\000c\000e\000s}{}% 45
