@@ -2,8 +2,8 @@ PWD /Users/leonardopiopalumbo/Desktop/Università/Compilatori e Interpreti/comp
 INPUT /usr/local/texlive/2021/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/leonardopiopalumbo/Desktop/Università/Compilatori e Interpreti/compilatori_report/capitoli/02_grammatica/02_5_commenti.tex
-OUTPUT /Users/leonardopiopalumbo/Desktop/Università/Compilatori e Interpreti/compilatori_report/capitoli/02_grammatica/02_5_commenti.log
+INPUT /Users/leonardopiopalumbo/Desktop/Università/Compilatori e Interpreti/compilatori_report/capitoli/00_abstract.tex
+OUTPUT /Users/leonardopiopalumbo/Desktop/Università/Compilatori e Interpreti/compilatori_report/capitoli/00_abstract.log
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/subfiles/subfiles.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/subfiles/subfiles.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/subfiles/subfiles.cls

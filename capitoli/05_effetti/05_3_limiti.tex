@@ -3,7 +3,7 @@
 
 \subsection{Limiti}
 
-Uno dei limiti del controllore di tipi implementato è l'insensibilità alla presenza di valori non dichiarati. In particolare, dal momento che la funzione di sequenzializzazione fra un valore $\bot$ ed uno $rw$ è $rw$, qualora siano presenti valori non inizializzati, il sistema di controllo degli effetti non è in gradi di rilevare l'errore.
+Uno dei limiti del controllore di tipi implementato è l'insensibilità alla presenza di valori non dichiarati. In particolare, dal momento che la funzione di sequenzializzazione fra un valore $\bot$ ed uno $rw$ è $rw$, qualora siano presenti valori non inizializzati, il sistema di controllo degli effetti non è in grado di rilevare l'errore.
 
 Gli errori dovuti alla non inizializzazione dei puntatori vengono rilevati dinamicamente: ogni volta che il valore dello stack pointer viene incrementato, i valori nell'intervallo compreso fra i due valori vengono contrassegnati come illeggibili. Similmente, a seguito della liberazione di un'area dello heap tale area viene contrassegnata come illeggibile.
 

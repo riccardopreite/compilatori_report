@@ -27,7 +27,7 @@ La CPU ha 9 registri:
     \item \textbf{Registro generico (\$t1)}: utilizzabile liberamente all'interno del programma  
     \item \textbf{Return address (\$ra)}: registro utilizzato per salvare l'indirizzo di ritorno una volta usciti da un frame
 \end{itemize}
-La CPU esegue le istruzioni passate al costruttore dall'interprete. Dopodiché, ad ofni iterazione, si accede all'istruzione indicata dal registro \emph{\$ip} che poi viene incrementato di uno per passare ad eseguire l'istruzione successiva. L'operazione da eseguire dipende dal campo \emph{code} dell'oggetto \emph{Instruction}.  
+La CPU esegue le istruzioni passate al costruttore dall'interprete. Dopodiché, ad ogni iterazione, si accede all'istruzione indicata dal registro \emph{\$ip} che poi viene incrementato di uno per passare ad eseguire l'istruzione successiva. L'operazione da eseguire dipende dal campo \emph{code} dell'oggetto \emph{Instruction}.  
 \newline
 Per gestire i registri si utilizzano le funzioni \emph{regStore} e \emph{regRead} per aggiornare e leggere il valore contenuto nel registro opportuno.
 \newline
