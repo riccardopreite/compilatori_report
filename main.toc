@@ -1,39 +1,46 @@
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}Introduzione}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Obiettivo}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Il Linguaggio - SimplanPlus}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Compilatore}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Interprete}{3}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Stato dell'arte}{3}{subsection.1.5}%
-\contentsline {section}{\numberline {2}Grammatica}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Blocchi}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Dichiarazioni}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Istruzioni}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Espressioni}{5}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Commenti e caratteri ignorati}{6}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Errori grammaticali}{6}{subsection.2.6}%
-\contentsline {section}{\numberline {3}Semantica}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Ambiente}{7}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}STentry}{7}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Environment}{7}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Errori semantici}{7}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Variabili/Funzioni non dichiarate}{7}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Variabili dichiarate più volte nello stesso ambiente}{8}{subsubsection.3.2.2}%
-\contentsline {section}{\numberline {4}Controllo dei tipi}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Tipi}{9}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Corretto uso dei puntatori}{9}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Parametri attuali non conformi ai parametri formali}{9}{subsubsection.4.1.2}%
-\contentsline {section}{\numberline {5}Analisi degli effetti}{11}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Struttura ambiente}{11}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Effetti}{11}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Limiti}{12}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Compilatore}{14}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Compilatore SimplanPlus}{14}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Interprete}{15}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Interprete SimplanPlus}{15}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Bytecode}{15}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}CPU e memoria}{15}{subsubsection.7.1.2}%
-\contentsline {subsubsection}{\numberline {7.1.3}Record di attivazione}{16}{subsubsection.7.1.3}%
-\contentsline {subsubsection}{\numberline {7.1.4}Come funziona l'interprete?}{17}{subsubsection.7.1.4}%
-\contentsline {section}{\numberline {8}Esempi}{18}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Esempio 1}{18}{subsection.8.1}%
+\contentsline {section}{\numberline {1}Introduzione}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Obiettivo}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Il Linguaggio - SimplanPlus}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Compilatore}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Interprete}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Stato dell'arte}{4}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Grammatica}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Blocchi}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Dichiarazioni}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Istruzioni}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Espressioni}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Commenti e caratteri ignorati}{7}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Errori grammaticali}{7}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Semantica}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Ambiente}{8}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}STentry}{8}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Environment}{8}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Errori semantici}{8}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Variabili/Funzioni non dichiarate}{8}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Variabili dichiarate più volte nello stesso ambiente}{9}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Controllo dei tipi}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Tipi}{10}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Corretto uso dei puntatori}{10}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Parametri attuali non conformi ai parametri formali}{10}{subsubsection.4.1.2}%
+\contentsline {section}{\numberline {5}Analisi degli effetti}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Struttura ambiente}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Effetti}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Limiti}{13}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Compilatore}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Compilatore SimplanPlus}{15}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Interprete}{16}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Interprete SimplanPlus}{16}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Bytecode}{16}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}CPU e memoria}{16}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Record di attivazione}{17}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Come funziona l'interprete?}{18}{subsubsection.7.1.4}%
+\contentsline {section}{\numberline {8}Esempi}{19}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Variabili o Funzioni non dichiarate}{19}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Dichiarazioni multiple}{19}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Variabili non inizializzate}{19}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Puntatori}{20}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Conformità dei parametri}{20}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Correttezza dei tipi}{21}{subsection.8.6}%
+\contentsline {section}{\numberline {A}Installazione}{22}{appendix.A}%
+\contentsline {section}{\numberline {B}References}{23}{appendix.B}%
